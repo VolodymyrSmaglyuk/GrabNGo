@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="/images/logo.png" type="image/png" />
+    <title>Grab N Go Menu</title>
+    <link rel="stylesheet" href="/css/menu_styling.css" />
+    <link rel="stylesheet" href="css/responsive_menu.css" /> 
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdn.jsdelivr.net/npm/slick-carousel/slick/slick.css"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body >
+    <header class="new-background">
+      <div class="logo-container">
+        <a href="/">
+          <img src="/images/logo.png" alt="logo picture" />
+          <span id="logo-text"> Grab N Go</span>
+        </a>
+      </div>
+      <div class="back-button">
+        <a href="/">
+          <img src="/images/1.png" alt="back arrow icon" />
+        </a>
+      </div>
+    </header>
+
+    <section class="hot_section">
+      <div class="heading_container">
+        <h2>Популярні страви</h2>
+        <hr />
+      </div>
+      <div class="slider">
+         <% data.forEach(function(item,index) { %>
+          <% if (item.rank === 1) { %>
+            <div class="slide<%= index === data.length - 1 ? ' last-slide' : '' %>">
+              <img src="<%= item.src %>" alt="<%= item.alt %>" />
+              <div class="price"><%= item.price %></div>
+              <div class="overlay"></div>
+              <div class="description">
+                <h3><%= item.name %></h3>
+                <p><%= item.description %></p>
+              </div>
+            </div>
+          <% } %>
+        <% }); %> 
+      </div>
+    </section>
+    <section class="menu_section" id="menu">
+      <div class="heading_container">
+        <h2>Меню</h2>
+        <hr>
+      </div>
+      <div class="navigation-container">
+        <ul>
+            <li><a href='#tab1' id="food-button"><img src="/images/icons8-international-food-100.png" alt="">Їжа</a></li>
+          <li><a href='#tab2' id="drink-button"><img src="/images/icons8-cafe-100.png" alt="">Напої</a></a></li>
+        </ul>
+      </div>
+      <div class="menu_container">
+        <article id="tab1">
+          <div class="left_list">
+            <% data.slice(0, 10).forEach(function(item) { %>
+              <div class="tab_item">
+                <img src="<%= item.src %>" alt="<%= item.alt %>" />
+                <h4><%= item.name %></h4>
+                <p><%= item.description %></p>
+                <div class="price">
+                  <h6><%= item.price %></h6>
+                </div>
+              </div>
+            <% }); %>
+          </div>
+          <div class="right_list">  
+              <% data.slice(10, 20).forEach(function(item) { %>
+                <div class="tab_item">
+                  <img src="<%= item.src %>" alt="<%= item.alt %>" />
+                  <h4><%= item.name %></h4>
+                  <p><%= item.description %></p>
+                  <div class="price">
+                    <h6><%= item.price %></h6>
+                  </div>
+                </div>
+              <% }); %>
+          </div>
+        </article>
+        <article id="tab2">
+          <div class="left_list">
+            <% data.slice(20, 30).forEach(function(item) { %>
+              <div class="tab_item">
+                <img src="<%= item.src %>" alt="<%= item.alt %>" />
+                <h4><%= item.name %></h4>
+                <p><%= item.description %></p>
+                <div class="price">
+                  <h6><%= item.price %></h6>
+                </div>
+              </div>
+            <% }); %>
+          </div>
+          <div class="right_list">
+            <% data.slice(30, 40).forEach(function(item) { %>
+              <div class="tab_item">
+                <img src="<%= item.src %>" alt="<%= item.alt %>" />
+                <h4><%= item.name %></h4>
+                <p><%= item.description %></p>
+                <div class="price">
+                  <h6><%= item.price %></h6>
+                </div>
+              </div>
+            <% }); %>
+          </div>
+        </article>
+      </div>
+    </section>
+    <section class="chef_section">
+      <div class="heading_container">
+        <h2>Люди, що гутують для вас</h2>
+        <hr>
+      </div>
+      <div class="chef_container">
+        <% chefsData.forEach(function(chef) { %>
+          <div class="chef_item">
+            <div class="chef_photo">
+              <img src="<%= chef.src %>" alt="<%= chef.alt %>">
+            </div>
+            <div class="down_content">
+              <h4><%= chef.name %></h4>
+              <span><%= chef.specialty %></span>
+            </div>
+          </div>
+        <% }); %>
+      </div>
+    </section>
+    <footer class="footer_section">
+      <div class="social_container">
+        <h4>Ми в соціальних мережах</h4>
+        <div class="social-box">
+          <a href="https://uk-ua.facebook.com/" target="_blank">
+            <img src="/images/fb.png" alt="facebook aicon" />
+          </a>
+          <a href="https://twitter.com/?lang=uk" target="_blank">
+            <img src="/images/twitter.png" alt="twitter icon" />
+          </a>
+          <a href="https://www.linkedin.com/" target="_blank">
+            <img src="/images/linkedin.png" alt="linkedin icon" />
+          </a>
+          <a href="https://www.youtube.com/" target="_blank">
+            <img src="/images/youtube.png" alt="youtube icon" />
+          </a>
+        </div>
+      </div>
+      <p>&copy; 2023 All Rights Reserved. Design by Volodymyr Smahliuk.</p>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/slick-carousel/slick/slick.min.js"></script>
+    <script src="/js/menu_sliding.js"></script>
+    <script src="/js/slider.js"></script>
+  </body>
+</html>

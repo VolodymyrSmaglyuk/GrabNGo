@@ -1,0 +1,307 @@
+@media (max-width: 1366px) {
+  body {
+    overflow-x: hidden;
+  }
+}
+@media (max-width: 1120px) {
+  .menu_section .menu_container p {
+    margin-right: 17%;
+  }
+  .menu_section .menu_container img {
+    margin-bottom: 0;
+  }
+  .menu_section .menu_container .tab_item {
+    margin-bottom: 40px;
+  }
+}
+@media (max-width: 1025px) {
+  .menu_section .menu_container p {
+    margin-right: 17%;
+    margin-left: 25%;
+  }
+}
+@media (max-width: 992px) {
+  .menu_section .menu_container .left_list {
+    display: block;
+    width: 100%;
+    margin-right: 0%;
+  }
+
+  .menu_section .menu_container .right_list {
+    display: block;
+    width: 100%;
+  }
+  .menu_section .menu_container p {
+    margin-right: 17%;
+    margin-left: 0;
+  }
+  .chef_section .chef_container {
+    display: block;
+    margin-bottom: 35px;
+  }
+  .chef_section .chef_container .chef_item {
+    display: block;
+    width: 80%;
+    margin: 25px auto;
+  }
+  .chef_section .chef_container .chef_item:last-child {
+    display: block;
+    width: 80%;
+    margin: 25px auto !important;
+  }
+}
+@media (max-width: 821px) {
+}
+@media (max-width: 798px) {
+}
+@media (max-width: 769px) {
+  body {
+    background: -webkit-linear-gradient(90deg, #148d24 100%, #ffffff 100%);
+    background: -o-linear-gradient(90deg, #148d24 100%, #ffffff 100%);
+    background: -moz-linear-gradient(90deg, #148d24 100%, #ffffff 100%);
+    background: linear-gradient(90deg, #148d24 100%, #ffffff 100%);
+  }
+  .new-background {
+    background: -webkit-linear-gradient(90deg, #148d24 100%, #ffffff 100%);
+    background: -o-linear-gradient(90deg, #148d24 100%, #ffffff 100%);
+    background: -moz-linear-gradient(90deg, #148d24 100%, #ffffff 100%);
+    background: linear-gradient(90deg, #148d24 100%, #ffffff 100%);
+  }
+  .custom_menu-btn span {
+    background-color: #ffffff;
+  }
+  .hot_section .heading_container h2 {
+    color: #ffffff;
+  }
+  .hot_section .heading_container hr {
+    background-color: rgb(255, 255, 255);
+  }
+  header::after {
+    content: "";
+    display: block;
+    height: 2px;
+    background-color: #ffffff;
+  }
+  .slide {
+    width: 50%;
+  }
+  .menu_section {
+    color: #ffffff;
+  }
+  .menu_section h4 {
+    color: #ffffff;
+  }
+  .menu_section .heading_container hr {
+    background-color: #ffffff;
+  }
+  .active_button img {
+    background-color: #ffffff;
+  }
+  .chef_section .chef_container {
+    color: #ffffff;
+  }
+  .chef_section .heading_container h2 {
+    color: #ffffff;
+  }
+  .chef_section .chef_container .chef_item {
+    border: 2px solid #ffffff;
+  }
+  .chef_section .heading_container hr {
+    background-color: #ffffff;
+  }
+  .menu_section .menu_container .price h6 {
+    width: 70px;
+  }
+  .menu_section .menu_container img {
+    margin: 0;
+    margin-right: 3%;
+  }
+}
+@media (max-width: 671px) {
+}
+@media (max-width: 649px) {
+}
+@media (max-width: 621px) {
+}
+@media (max-width: 577px) {
+  .menu_section .menu_container p {
+    margin-right: 22%;
+    margin-left: 24%;
+  }
+}
+@media (max-width: 520px) {
+}
+@media (max-width: 480px) {
+  .menu_section .menu_container .tab_item {
+    height: fit-content;
+  }
+  .menu_section .menu_container img {
+    /* margin: 0; */
+    margin-right: 3%;
+  }
+  .menu_section .menu_container p {
+    margin-right: 22%;
+    margin-left: 30%;
+  }
+}
+
+@media (max-width: 421px) {
+  .menu_section .menu_container p {
+    margin-right: 22%;
+    margin-left: 31%;
+  }
+  .menu_section .menu_container .tab_item {
+    height: fit-content;
+  }
+  .menu_section .menu_container .tab_item {
+    margin-bottom: 45px;
+  }
+}
+
+@media (max-width: 394px) {
+  .menu_section .menu_container p {
+    margin-right: 22%;
+    margin-left: 33%;
+  }
+  .menu_section .menu_container h4 {
+    padding-left: 115px;
+  }
+}
+@media (max-width: 376px) {
+  .menu_section .menu_container p {
+    margin-right: 22%;
+    margin-left: 33%;
+  }
+  .menu_section .menu_container h4 {
+    padding-left: 110px;
+  }
+  .menu_section .menu_container img {
+    margin-right: 1%;
+  }
+}
+@media (max-width: 361px) {
+  .hot_section {
+    margin-bottom: 130px;
+  }
+}
+@media (max-width: 334px) {
+  .tab_item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  .menu_section .tab_item img {
+    margin-right: 180px;
+    margin-bottom: 10px;
+  }
+  .menu_section .tab_item h4 {
+    margin-right: 145px;
+    padding: 0;
+  }
+  .menu_section .menu_container p {
+    margin-right: 0;
+    margin-left: 0;
+  }
+}
+@media (max-width: 320px) {
+}
+@media (max-width: 300px) {
+}
+@media (max-width: 285px) {
+  .hot_section {
+    margin-bottom: 130px;
+  }
+  .tab_item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  .menu_section .tab_item img {
+    margin-right: 150px;
+    margin-bottom: 10px;
+  }
+  .menu_section .tab_item h4 {
+    margin-right: 143px;
+    padding: 0;
+  }
+  .menu_section .menu_container p {
+    margin-right: 0;
+    margin-left: 0;
+  }
+}
+
+@media (min-width: 1200px) {
+}
+@media (min-width: 2559px) {
+  .logo-container a img {
+    height: 5vh;
+  }
+  #logo-text {
+    font-size: 3rem;
+  }
+  .back-button img {
+    width: 100px;
+  }
+  body h2 {
+    font-size: 4rem;
+  }
+  .hot_section {
+    margin-bottom: 145px;
+  }
+  .hot_section .heading_container hr {
+    height: 8px;
+  }
+  .slide .price {
+    font-size: 2rem;
+  }
+  .menu_section .heading_container hr {
+    height: 8px;
+  }
+  .menu_section .navigation-container ul li a {
+    font-size: 2.5rem;
+  }
+  .menu_section .navigation-container ul li a img {
+    width: 110px;
+    height: 110px;
+  }
+  .menu_section .menu_container .tab_item img {
+    margin: 0;
+    width: 200px;
+  }
+  .menu_section .menu_container .tab_item h4 {
+    font-size: 2.5rem;
+  }
+  .menu_section .menu_container .tab_item p {
+    font-size: 2rem;
+    margin-left: 10%;
+  }
+  .menu_section .menu_container .price h6 {
+    top: 75px;
+    font-size: 2rem;
+    width: 90px;
+    height: 70px;
+    line-height: 60px;
+  }
+  .chef_section .heading_container hr {
+    height: 8px;
+  }
+  .chef_section .chef_container .chef_item .down_content h4 {
+    font-size: 3rem;
+  }
+  .chef_section .chef_container .chef_item .down_content span {
+    font-size: 2rem;
+  }
+
+  .footer_section .social_container h4 {
+    font-size: 3rem;
+  }
+  .footer_section p {
+    font-size: 2rem;
+  }
+  .footer_section .social_container .social-box a img {
+    height: 70px;
+    width: 70px;
+  }
+}

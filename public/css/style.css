@@ -173,7 +173,7 @@ section h2 {
 .detail-box .heading_container hr {
   display: inline-block;
   width: 40%;
-  margin-bottom: 85px;
+  margin-bottom: 53px;
   height: 4px;
   opacity: 1;
   background-color: #12a412;
@@ -218,7 +218,7 @@ section h2 {
   width: 95%;
 }
 .dish-section .detail-box .heading_container hr {
-  margin-bottom: 50px;
+  margin-bottom: 35px;
 }
 .dish-section .detail-box .heading_container h2 {
   text-align: right;
@@ -262,7 +262,7 @@ section h2 {
   text-align: left;
 }
 .map-section .detail-box .heading_container hr {
-  margin-bottom: 50px;
+  margin-bottom: 32px;
 }
 .map-section .detail-box .heading_container h2 {
   display: inline-block;
@@ -300,7 +300,7 @@ section h2 {
   text-align: left;
 }
 .delivery-section .detail-box .heading_container hr {
-  margin-bottom: 50px;
+  margin-bottom: 32px;
 }
 .delivery-section .detail-box .heading_container h2 {
   display: inline-block;

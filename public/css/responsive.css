@@ -408,9 +408,7 @@
     height: 100%;
   }
   .detail-box .heading_container h2 {
-    text-transform: uppercase;
-    font-family: "American Typewriter", sans-serif;
-    font-size: 3rem;
+    font-size: 4rem;
   }
 
   .dish-section .detail-box p {
@@ -423,23 +421,21 @@
     border: 2px solid #12a412;
     margin-top: 30px;
   }
+  .map-section .detail-box {
+    height: fit-content;
+  }
   .map-section .detail-box p {
     font-size: 2.2rem;
-  }
-  .map-section .map-container {
-    display: inline-block;
-    width: 50%;
-    height: 100px;
   }
   .delivery-section .detail-box p {
     font-size: 2.2rem;
   }
-  .dish-section .dish_container .box img {
+  .delivery-section .photo-container img {
     width: 100%;
     height: 100%;
   }
   .contact_section h2 {
-    font-size: 3rem;
+    font-size: 4rem;
     margin-bottom: 40px;
   }
   .contact_section .work_container p {
@@ -512,9 +508,7 @@
     font-size: 3.2rem;
   }
   .detail-box .heading_container h2 {
-    text-transform: uppercase;
-    font-family: "American Typewriter", sans-serif;
-    font-size: 4rem;
+    font-size: 5rem;
   }
   .dish-section .detail-box .heading_container h2 {
     text-align: right;
@@ -538,14 +532,14 @@
     font-size: 3.2rem;
   }
   .contact_section h2 {
-    font-size: 4rem;
+    font-size: 5rem;
     margin-bottom: 40px;
   }
   .contact_section .work_container p {
     font-size: 3.2rem;
   }
   .contact_section .work_container h3 {
-    font-size: 3rem;
+    font-size: 4rem;
   }
   .contact_section .contact_box h6 {
     font-size: 2.3rem;

@@ -233,28 +233,6 @@
 }
 
 @media (min-width: 1139px) {
-  .menu_section .menu_container .tab_item h4 {
-    font-size: 2rem;
-  }
-  .menu_section .menu_container .tab_item p {
-    font-size: 1.5rem;
-    margin-left: 20%;
-  }
-  .menu_section .menu_container #tab1 .tab_item {
-    height: fit-content;
-  }
-  .menu_section .menu_container #tab2 .tab_item {
-    height: 150px;
-  }
-  .menu_section .menu_container .price h6 {
-    top: 45px;
-    font-size: 1.5rem;
-    width: 90px;
-    height: 70px;
-    line-height: 60px;
-  }
-}
-@media (min-width: 2559px) {
   .logo-container a img {
     height: 5vh;
   }
@@ -279,6 +257,57 @@
   .menu_section .heading_container hr {
     height: 8px;
   }
+  .menu_section .navigation-container ul li a {
+    font-size: 2rem;
+  }
+  .menu_section .navigation-container ul li a img {
+    width: 90px;
+    height: 90px;
+  }
+  .menu_section .menu_container .tab_item h4 {
+    font-size: 2rem;
+  }
+  .menu_section .menu_container .tab_item p {
+    font-size: 1.5rem;
+    margin-left: 20%;
+  }
+  .menu_section .menu_container .tab_item img {
+    margin-top: 20px;
+  }
+  .menu_section .menu_container #tab1 .tab_item {
+    height: 160px;
+  }
+  .menu_section .menu_container #tab2 .tab_item {
+    height: 150px;
+  }
+  .menu_section .menu_container .price h6 {
+    top: 45px;
+    font-size: 1.5rem;
+    width: 90px;
+    height: 70px;
+    line-height: 60px;
+  }
+  .chef_section .heading_container hr {
+    height: 8px;
+  }
+  .chef_section .chef_container .chef_item .down_content h4 {
+    font-size: 3rem;
+  }
+  .chef_section .chef_container .chef_item .down_content span {
+    font-size: 2rem;
+  }
+  .footer_section .social_container h4 {
+    font-size: 3rem;
+  }
+  .footer_section p {
+    font-size: 2rem;
+  }
+  .footer_section .social_container .social-box a img {
+    height: 70px;
+    width: 70px;
+  }
+}
+@media (min-width: 2559px) {
   .menu_section .slider {
     width: 450px;
   }
@@ -296,45 +325,36 @@
     width: 110px;
     height: 110px;
   }
-  .menu_section .menu_container .tab_item {
-    height: 200px;
+  .menu_section .menu_container #tab1 .tab_item {
+    height: 260px;
+  }
+  .menu_section .menu_container #tab2 .tab_item {
+    height: 190px;
+  }
+  .menu_section .menu_container #tab1 .tab_item .price h6 {
+    top: 85px;
+  }
+  .menu_section .menu_container #tab2 .tab_item .price h6 {
+    top: 70px;
   }
   .menu_section .menu_container .tab_item img {
-    margin: 0;
-    width: 200px;
+    margin-top: 30px;
+    height: 140px;
   }
   .menu_section .menu_container .tab_item h4 {
-    font-size: 2.5rem;
+    font-size: 3.5rem;
+    margin-left: 14%;
   }
   .menu_section .menu_container .tab_item p {
-    font-size: 2rem;
-    margin-left: 10%;
+    font-size: 2.5rem;
+    margin-left: 14%;
+    margin-right: 14%;
   }
   .menu_section .menu_container .price h6 {
-    top: 45px;
     font-size: 2rem;
-    width: 90px;
+    width: 120px;
+    margin-right: 20px;
     height: 70px;
     line-height: 60px;
-  }
-  .chef_section .heading_container hr {
-    height: 8px;
-  }
-  .chef_section .chef_container .chef_item .down_content h4 {
-    font-size: 3rem;
-  }
-  .chef_section .chef_container .chef_item .down_content span {
-    font-size: 2rem;
-  }
-
-  .footer_section .social_container h4 {
-    font-size: 3rem;
-  }
-  .footer_section p {
-    font-size: 2rem;
-  }
-  .footer_section .social_container .social-box a img {
-    height: 70px;
-    width: 70px;
   }
 }
